@@ -11,9 +11,6 @@ import org.bukkit.inventory.ItemStack;
 
 import java.util.Random;
 
-/**
- * Listens to the ChestSortEvent to manipulate sorting attempts
- */
 public class ExampleListener implements Listener {
 
     private final ExamplePlugin main;
