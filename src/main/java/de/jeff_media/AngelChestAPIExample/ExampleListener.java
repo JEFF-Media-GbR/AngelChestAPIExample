@@ -37,9 +37,10 @@ public class ExampleListener implements Listener {
         AngelChest angelChest = event.getAngelChest();
         ItemStack[] oldItems = angelChest.getStorageInv();
         ItemStack[] newItems = angelChest.getStorageInv().clone();
-        for(int i = 0; i < oldItems.length; i++)
+        for(int i = 0; i < oldItems.length; i++) {
             if(oldItems[i] == null) {
-                newItems[i] = new ItemStack(Material.DIAMOND,new Random().nextInt(64)+1);
+                newItems[i] = new ItemStack(Material.DIAMOND, new Random().nextInt(64) + 1);
+            }
         }
         angelChest.setStorageInv(newItems);
         angelChest.setExperience(new Random().nextInt(Integer.MAX_VALUE));
