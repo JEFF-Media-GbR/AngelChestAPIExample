@@ -1,11 +1,10 @@
-main: de.jeff_media.ChestSortAPIExample.ExamplePlugin
-name: ChestSortAPIExample
+main: de.jeff_media.AngelChestAPIExample.ExamplePlugin
+name: AngelChestAPIExample
 version: 0.0.1-SNAPSHOT
 api-version: 1.13
-description: An example plugin to show how to use the ChestSortAPI
+description: An example plugin to show how to use the AngelChestAPI
 author: mfnalex
-website: https://www.chestsort.de
 database: false
-softdepend: [ChestSort]
+softdepend: [AngelChest]
 commands:
-  chestsorttest:
+  angelchesttest:

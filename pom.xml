@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.jeff_media</groupId>
-	<artifactId>ChestSortAPIExample</artifactId>
+	<artifactId>AngelChestAPIExample</artifactId>
 	<version>1.0.0</version>
-	<name>ChestSortAPIExample</name>
-	<description>An example plugin to show how to use the ChestSortAPI</description>
+	<name>AngelChestAPIExample</name>
+	<description>An example plugin to show how to use the AngelChestAPI</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,7 +30,7 @@
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>3.1.0</version>
 				<configuration>
-					<finalName>ChestSortAPIExample</finalName>
+					<finalName>AngelChestAPIExample</finalName>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -64,13 +64,13 @@
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot-api</artifactId>
-			<version>1.16.1-R0.1-SNAPSHOT</version>
+			<version>1.16.5-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>de.jeff_media</groupId>
-			<artifactId>ChestSortAPI</artifactId>
-			<version>2.0.0</version>
+			<artifactId>AngelChestAPI</artifactId>
+			<version>1.2.0</version>
 		</dependency>
 	</dependencies>
 
